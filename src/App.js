@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from 'react';
 import { predictPrice } from './brainModel';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -94,6 +95,28 @@ function App() {
       <button onClick={handleSaveModel} className="btn btn-secondary mt-3">Save Model</button>
       <button onClick={handleLoadModel} className="btn btn-secondary mt-3">Load Model</button>
       <PriceChart actualPrices={actualPrices} predictedPrices={predictedPrices} />
+=======
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+>>>>>>> 55cdaf01f63f4e3a47d55612ca14d92bfca9ed30
     </div>
   );
 }

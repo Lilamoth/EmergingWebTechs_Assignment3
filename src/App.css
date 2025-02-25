@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   background: url('./backgroundimg2.jpg') no-repeat center center fixed;
   background-size: cover;
@@ -19,6 +20,10 @@ body {
   align-items: center;
   justify-content: center;
   font-family: 'Arial', sans-serif;
+=======
+.App {
+  text-align: center;
+>>>>>>> 55cdaf01f63f4e3a47d55612ca14d92bfca9ed30
 }
 
 .App-logo {
@@ -33,7 +38,11 @@ body {
 }
 
 .App-header {
+<<<<<<< HEAD
   background-color: #4a90e2; /* Blue header */
+=======
+  background-color: #282c34;
+>>>>>>> 55cdaf01f63f4e3a47d55612ca14d92bfca9ed30
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -44,7 +53,11 @@ body {
 }
 
 .App-link {
+<<<<<<< HEAD
   color: #ff6f61; /* Coral link color */
+=======
+  color: #61dafb;
+>>>>>>> 55cdaf01f63f4e3a47d55612ca14d92bfca9ed30
 }
 
 @keyframes App-logo-spin {
